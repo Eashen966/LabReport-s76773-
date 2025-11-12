@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: blanchedalmond;
+            font-family: 'Courier New', monospace;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            color: rgb(107, 14, 228);
+            background-color: rgb(214, 183, 145);
+            text-align: center;
+            text-decoration: underline;
+        }
+
+        p {
+            background-color: rgb(45, 219, 147);
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            background-color: #0e0d0d;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        ul li {
+            float: left;
+            width: 25%;
+        }
+
+        ul li a {
+            display: block;
+            color: rgb(179, 15, 194);
+            text-align: center;
+            padding: 25px;
+            text-decoration: none;
+        }
+
+        ul li a:link {
+            color: #FF0000;
+        }
+
+        ul li a:visited {
+            color: #00FF00;
+        }
+
+        ul li a:hover {
+            color: #FF00FF;
+        }
+
+        ul li a:active {
+            color: #0000FF;
+        }
+
+
+        .video {
+            display: flex;
+            justify-content: center;
+        }
+
+        input[type="submit"] {
+            background-color: #44b0e2;
+            color: white;
+            padding: 10px 10px;
+            text-align: center;
+            display: inline-block;
+        }
+
+        div.form-container {
+            width: 300px;
+            margin: 40px auto;
+            padding: 30px;
+            border: 1px solid #d521e6;
+            border-radius: 8px;
+            background-color: #57ec49;
+            font-family: Arial, sans-serif;
+        }
+        
+
+        
+
+        footer{
+            text-align: center;
+        }
+        html {
+    scroll-behavior: smooth;
+        }
+
+        #about{
+            padding: 30px;
+            margin: 40px auto;
+            background-color:antiquewhite; 
+        }
+
+        #about h2 {
+            text-align: center;
+              margin-bottom: 15px;
+        }
+
+        #about h3 {
+            padding: 30px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#join-program">Join Our Cat Program</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <li><a href="#about">About Me</a></li>
+    </ul>
+
+    <h2>WELCOME TO THE CAT FESTIVAL<br>We love cats</h2>
+
+    <p>
+        <strong>"I have studied many philosophers and many cats. The wisdom of cats is infinitely superior."</strong>
+        <br> This program is for every around the world to join together and celebrate.. well cats.
+    </p>
+
+    <div class="video" id="home">
+        <video width="400" height="300" controls>
+            <source src="hepicat.mp4" type="video/mp4">
+        </video>
+    </div><br>
+
+    <div id="about">
+        <h2>About Us</h2>
+        <h3>I have a fondness for cats and am always captivated by their unique personalities and graceful mystique. 
+            I love hearing tales about feline companions and the amusing, heartwarming, or surprising moments they bring into our lives. 
+            Tell me about your cat(s) and what makes them special!</h3>
+    </div>
+    
+
+    <div class="form-container" id=join-program>
+        <h3>JOIN OUR PROGRAM</h3>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="Other">
+            <label for="other">Other</label><br><br>
+
+            <label>Hobby:</label><br>
+            <input type="checkbox" id="reading with cats" name="hobby" value="Reading with cats">
+            <label for="reading">Reading with cats</label><br>
+
+            <input type="checkbox" id="Walking with cats" name="Walking with cats" value="Walking with cats">
+            <label for="Walking with cats">Walking with cats</label><br>
+
+            <input type="checkbox" id="music" name="hobby" value="Music with cats">
+            <label for="music">Music with cats</label><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+     <footer id="contact">
+        All rights reserved by EASHENRAJ  &copy; 2025.
+        <address>
+            Contact Me
+            <a href="mailto:s76773@umt.edu.my">@Eashenraj</a>
+        </address>
+    </footer>
+</body>
+</html>
