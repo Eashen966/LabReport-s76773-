@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Form Validation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .form-group {
+            margin-bottom: 10px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            padding: 8px;
+            width: 300px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Form Validation Example</h2>
+    <form name="spform" onsubmit="return validateForm()">
+        <div class="form-group">
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <script src="form-validation.js"></script>
+</body>
+</html>

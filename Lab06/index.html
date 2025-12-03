@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>JavaScript Quiz</h1>
+        <p>Answer 3 questions about JavaScript</p>
+        
+        <div id="quiz">
+            <div id="question-count">Question <span id="current">1</span>/3</div>
+            <h2 id="question-text"></h2>
+            <div id="options"></div>
+            <div id="result"></div>
+            <button id="submit" onclick="checkAnswer()">Submit</button>
+        </div>
+        
+        <div id="end-screen" style="display:none;">
+            <h2>Quiz Finished!</h2>
+            <p id="score-display"></p>
+            <button onclick="resetQuiz()">Try Again</button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
