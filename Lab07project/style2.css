@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.side-nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 120px;
+    background: #111;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px 0;
+}
+
+.side-nav a:hover {
+    color: #4caf50;
+}
+
+.content {
+    margin-left: 140px;
+}
+
+.hero {
+    height: 100vh;
+    background: url("it.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay-text {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.section-title {
+    text-align: center;
+    margin: 40px 0 20px;
+}
+
+.profile-card {
+    text-align: center;
+    padding: 40px;
+}
+
+.profile-card img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.icons i {
+    font-size: 24px;
+    margin: 10px;
+}
+
+.slideshow-container {
+    max-width: 600px;
+    margin: auto;
+}
+
+.slide {
+    width: 100%;
+    display: none;
+}
+
+.progress-container {
+    width: 60%;
+    margin: auto;
+}
+
+.progress {
+    background: #ddd;
+    height: 20px;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: #4caf50;
+}
+
+.form-on-image {
+    background: url("it.jpg") center/cover no-repeat;
+    padding: 60px;
+}
+
+form {
+    background: rgba(255,255,255,0.9);
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.collapsible-header {
+    background: #333;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.collapsible-content {
+    display: none;
+    padding: 15px;
+    background: #f4f4f4;
+}
